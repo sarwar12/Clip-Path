@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+/*Header Section*/
+.heads{}
+.heads h1{
+	color: #eee;
+	background: teal;
+	padding: 20px 0;
+	text-align: center;
+}
+/*Inset Section*/
+p {
+	background: lightskyblue;
+	padding: 5px 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	margin: 30px 0;
+}
+.inset {
+	text-align: center;
+}
+.inset img {
+	width: 50%;
+	clip-path: inset(16% 14% 23% 14%);
+}
+/*Polygon Section*/
+.polygon {
+	text-align: center;
+	margin: 30px 0;
+}
+.polygon img {
+	width: 40%;
+	clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+/*Circle Section*/
+.circle {
+	text-align: center;
+	margin-bottom: 50px;
+}.circle img {
+	width: 70%;
+	clip-path: circle(40% at 55% 53%);
+}
+/*Ellipse Section*/
+.ellipse{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.ellipse img {
+	width: 50%;
+	clip-path: ellipse(38% 49% at 53% 49%);
+}
+/*Footer Section*/
+.foots{
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+	background: teal;
+}
